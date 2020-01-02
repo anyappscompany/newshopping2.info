@@ -1,0 +1,35 @@
+[AUTH-INFO]
+<div class="alert alert-info" role="alert">
+  [LOGIN-MEMBER-RECOMMENDATION]
+</div>
+
+	<!--<form action="http://[SERVER-NAME]/authorization.php?mode=auth" method="POST">
+		<table>
+			<tr>
+				<td>E-mail:</td>
+				<td><input type="text" size="30" name="email"></td>
+			</tr>
+			<tr>
+				<td>Пароль:</td>
+				<td><input type="password" size="30" maxlength="20" name="pass"></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td colspan="2"><input type="submit" value="Войти" name="submit"></td>
+			</tr>
+		</table>
+	</form>-->
+
+
+<form action="http://[SERVER-NAME]/authorization.php?mode=auth" method="POST">
+            <div class="form-group">
+                <label for="exampleInputEmail1">[AUTH-FORM-MAIL]</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="[AUTH-FORM-MAIL-PLACEHOLDER]" maxlength="30" name="email" required/>
+                <small id="emailHelp" class="form-text text-muted">[LOGIN-MEMBER-RECOMMENDATION2]</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">[AUTH-FORM-PASS]</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="[AUTH-FORM-PASS]" maxlength="20" name="pass" required/>
+            </div>
+            <button type="submit" class="btn btn-default" name="submit">[LOGIN-SUBMIT]</button>
+        </form>

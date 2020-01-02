@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /page/
+User-Agent: *
+Sitemap: httр://newshopping.info/sitemap.xml
